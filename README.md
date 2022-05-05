@@ -1,6 +1,6 @@
 ## lazy infographic
 
-a tool for making keybinding cheat sheets
+a tool for making keybinding infographic
 
 ![keybinds](lazyinfo.png)
 
