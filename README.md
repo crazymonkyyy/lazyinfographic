@@ -1,3 +1,6 @@
+//todo I updated things but havnt changed the key binding pic or this
+
+
 ## lazy infographic
 
 a tool for making keybinding infographic
