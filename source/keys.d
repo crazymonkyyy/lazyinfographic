@@ -31,8 +31,10 @@ mixin template setupdraw(string name_:name,bool b=true){
 		DrawTextureRec(image,getrect(which),Vector2(x,y),Colors.WHITE);
 	}
 	void draw(int which,int x,int y,float scale){
-		DrawTextureTiled(image,getrect(which),Rectangle(x,y,width*scale,height*scale),
-				Vector2(0,0),0,scale,Colors.WHITE);
+		//DrawTextureTiled(image,getrect(which),Rectangle(x,y,width*scale,height*scale),
+		//		Vector2(0,0),0,scale,Colors.WHITE);
+		DrawTexturePro(image,getrect(which),Rectangle(x,y,width*scale,height*scale),
+				Vector2(0,0),0,Colors.WHITE);
 	}
 	mixin("void draw"~name_~"(T...)(T args){draw(args);}");
 }
